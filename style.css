@@ -1,0 +1,29 @@
+body{
+    background-image: url(https://static.pexels.com/photos/317/vintage-technology-old-sound-large.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.card{
+  background:white;
+  padding:10px;
+  border-radius:10px;
+  margin: 20px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.img-container{
+    display:flex;
+    align-self: center;
+
+}
+
+h4{
+font-style: bold;    
+}
+
+.form-group{
+align-content: center;
+}
