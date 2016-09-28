@@ -1,9 +1,10 @@
 body{
-    background-image: url(https://static.pexels.com/photos/317/vintage-technology-old-sound-large.jpg);
+    background-image: url(https://static.pexels.com/photos/30222/pexels-photo-30222-large.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size:100% 100%;
+    color: white;
 }
 
 .searchArea{
