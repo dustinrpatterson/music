@@ -20,7 +20,7 @@ function drawSongs(songList) {
           <source src="${foundMusic.preview}"> Your browser does not support the audio element.
           </audio>
           
-          <h1>${foundMusic.title}</h1>
+          <h2>${foundMusic.title}</h2>
           <p>${foundMusic.artist}</p>
           <p>${foundMusic.collection}</p>
           <p>Collection Price ${foundMusic.price}</p>
