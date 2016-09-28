@@ -1,13 +1,12 @@
 <html>
   <head>
-    <title>iFind your tunes</title>
+    <title>iFind tunes</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-    <script src="itunes-service.js"></script>
-    <script src="app.js"></script>
   </head>
   <body>
+    <div class="searchArea">
+      <h1>iFind tunes</h1>
       <form class="form-inline">
         <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
         <div class="form-group">
@@ -15,10 +14,17 @@
           <button type="button" class="btn btn-primary" id="get-music-button" onclick="getMusic()">Get Music</button>
         </div>
       </form>
-      
+    </div>      
       <div id="foundMusic" >
        
       </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="itunes-service.js"></script>
+    <script src="app.js"></script>
+
   </body>
 </html>
 

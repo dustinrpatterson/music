@@ -6,24 +6,38 @@ body{
     background-size:100% 100%;
 }
 
-.card{
-  background:white;
-  padding:10px;
-  border-radius:10px;
-  margin: 20px;
-  box-shadow: 1px 1px 3px black;
+.searchArea{
+    text-align: center;
+    height: 20%;
+    text-shadow: 2px 2px 4px lightslategray;
 }
 
+.results{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card{
+    background:white;
+    box-shadow: 1px 1px 3px black;
+    height:auto;
+    width: auto;
+    padding:10px;
+    border-radius:10px;
+    margin: 20px;
+     }
+
 .img-container{
-    display:flex;
-    align-self: center;
+border: 2px solid slategrey;
+}
+
+.music{
 
 }
 
 h4{
-font-style: bold;    
+font-weight: bold    
 }
 
-.form-group{
-align-content: center;
-}
+/*remove width off .card*/
