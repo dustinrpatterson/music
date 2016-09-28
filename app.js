@@ -20,10 +20,10 @@ function drawSongs(songList) {
           <source src="${foundMusic.preview}"> Your browser does not support the audio element.
           </audio>
           
-          <h4>${foundMusic.title}</h4>
+          <h1>${foundMusic.title}</h1>
           <p>${foundMusic.artist}</p>
           <p>${foundMusic.collection}</p>
-          <p>Price ${foundMusic.price}</p>
+          <p>Collection Price ${foundMusic.price}</p>
         </div>
     </div>
   </div>
@@ -33,3 +33,12 @@ function drawSongs(songList) {
 
     console.log(songList);
 }
+
+window.addEventListener("play", function(evt)
+{
+   if(window.$_currentlyPlaying && window.$_currentlyPlaying != evt.target)
+   {
+       window.$_currentlyPlaying.pause();
+   } 
+   window.$_currentlyPlaying = evt.target;
+}, true);
