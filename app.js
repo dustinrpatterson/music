@@ -21,7 +21,7 @@ function drawSongs(songList) {
     <div class="col-xs-12 col-sm-6"><audio controls>
           <source src="${foundMusic.preview}"> Your browser does not support the audio element.
           </audio>
-          <p>Collection ${foundMusic.collection}</p>
+          <p>Collection: ${foundMusic.collection}</p>
           </div>
     <div class="col-xs-12 col-sm-1">
       
