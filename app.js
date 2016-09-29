@@ -14,11 +14,11 @@ function drawSongs(songList) {
         template += `<div class="container card">
   <div class="row results">
     <div class="col-xs-12 col-sm-1"><img src="${foundMusic.albumArt}" alt="" /></div>
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-5">
       <h2>${foundMusic.title}</h2>
       <p>${foundMusic.artist}</p>
     </div>
-    <div class="col-xs-12 col-sm-6"><audio controls>
+    <div class="col-xs-12 col-sm-5"><audio controls>
           <source src="${foundMusic.preview}"> Your browser does not support the audio element.
           </audio>
           <p>Collection: ${foundMusic.collection}</p>
