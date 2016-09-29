@@ -15,19 +15,17 @@ body{
 }
 
 .results{
-    display: flex;
-    justify-content: space-around;
-    
+    display: flex;    
 }
 
 .card{
     background:white;
     box-shadow: 1px 1px 3px black;
     height:auto;
-    width: 700;
+    width: auto;
     padding:10px;
     border-radius:10px;
-    margin: 20px;
+    margin: 2% 10%;
     color:black;
     opacity: .8;
     font-family: 'Lato', sans-serif;
@@ -53,4 +51,5 @@ h2{
 h1{
     font-weight: bold;
     font-family: 'Rock Salt', cursive;
+    font-size: 80;
 }

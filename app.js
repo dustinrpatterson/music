@@ -11,20 +11,21 @@ function drawSongs(songList) {
     var songElement = document.getElementById('foundMusic')
     for (var i = 0; i < songList.length; i++) {
         var foundMusic = songList[i]
-        template += `<div class="container">
+        template += `<div class="container card">
   <div class="row results">
-    <div id="foundMusic">
-        <div class="img-container card">
-          <img src="${foundMusic.albumArt}" alt="" />
-          <audio controls>
+    <div class="col-xs-12 col-sm-1"><img src="${foundMusic.albumArt}" alt="" /></div>
+    <div class="col-xs-12 col-sm-6">
+      <h2>${foundMusic.title}</h2>
+      <p>${foundMusic.artist}</p>
+    </div>
+    <div class="col-xs-12 col-sm-6"><audio controls>
           <source src="${foundMusic.preview}"> Your browser does not support the audio element.
           </audio>
-          
-          <h2>${foundMusic.title}</h2>
-          <p>${foundMusic.artist}</p>
-          <p>${foundMusic.collection}</p>
-          <p>Collection Price ${foundMusic.price}</p>
-        </div>
+          <p>Collection ${foundMusic.collection}</p>
+          </div>
+    <div class="col-xs-12 col-sm-1">
+      
+      <p>Price ${foundMusic.price}</p>
     </div>
   </div>
 </div>`
