@@ -5,6 +5,7 @@ body{
     background-position: center;
     background-size:100% 100%;
     color: white;
+    font-family: 'Rock Salt', cursive;
 }
 
 .searchArea{
@@ -29,6 +30,7 @@ body{
     margin: 20px;
     color:black;
     opacity: .8;
+    font-family: 'Lato', sans-serif;
 }
 
 .card:hover{
@@ -44,5 +46,11 @@ border: 2px solid slategrey;
 }
 
 h2{
-font-weight: bold    
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;    
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Rock Salt', cursive;
 }
