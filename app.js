@@ -29,8 +29,8 @@ function drawSongs(songList) {
     </div>
   </div>
 </div>`
-        songElement.innerHTML = template
     }
+        songElement.innerHTML = template
 
     console.log(songList);
 }
